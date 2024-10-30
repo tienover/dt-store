@@ -11,7 +11,7 @@ const Tab = createBottomTabNavigator();
 function MyTabs() {
   return (
     <Tab.Navigator
-      initialRouteName="Home"  
+      initialRouteName="Danhmuc"  
       screenOptions={{
         tabBarActiveTintColor: '#e91e63',  
       }}

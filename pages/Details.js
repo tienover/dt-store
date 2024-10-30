@@ -56,7 +56,7 @@ const Details = () => {
       </View>
       <ScrollView>
         <View style={styles.list}>
-          <TouchableOpacity style={styles.iconList}>
+          <TouchableOpacity onPress={() => nav.navigate('Support')} style={styles.iconList}>
           <MaterialIcons name="support-agent" size={24} color="black" />
             <Text style={styles.sectionTitle}>Trung tâm trợ giúp</Text>
             <MaterialIcons name="chevron-right" size={24} color="gray" style={styles.arrowIcon} />

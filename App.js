@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Helmet from './home/Helmet';
 import Nam from './home/Nam';
+import Support from './account/Support';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ export default function App() {
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="Helmet" component={Helmet} />
         <Stack.Screen name="Nam" component={Nam} />
+        <Stack.Screen name="Support" component={Support} />
       </Stack.Navigator>
     </NavigationContainer>
   );
