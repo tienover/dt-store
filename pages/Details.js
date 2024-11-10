@@ -190,11 +190,6 @@ const styles = StyleSheet.create({
     paddingLeft: 1,
     // justifyContent: "space-between"
   },
-  sectionTitle: {
-    fontSize: 25,
-    marginLeft: 10,
-    flex: 1,
-  },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -205,10 +200,7 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     fontSize: 25,
   },
-  arrowIcon: {
-    color: 'gray',
-    marginRight: 10,
-  },
+ 
   space: {
     height: 1,
     backgroundColor: '#eee',
@@ -235,7 +227,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: 10,
-  }
+  },
+  sectionTitle: {
+    fontSize: 25,
+    marginLeft: 10,
+    flex: 1,
+  },
+  arrowIcon: {
+    color: 'gray',
+    marginRight: 10,
+  },
 
 });
 

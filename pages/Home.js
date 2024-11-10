@@ -69,7 +69,7 @@ const Home = () => {
       </View>
 
       <View style={styles.swiperContainer}>
-        <Swiper showsPagination={true}>
+        <Swiper  showsPagination={true}>
           <View style={styles.slide}>
             <Image
               style={styles.tinyLogo}
